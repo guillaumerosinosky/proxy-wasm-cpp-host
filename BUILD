@@ -196,6 +196,7 @@ cc_library(
     ],
     hdrs = ["include/proxy-wasm/wasmtime.h"],
     copts = [
+        "-std=c++20",
         "-DWASM_API_EXTERN=",
     ],
     defines = [
